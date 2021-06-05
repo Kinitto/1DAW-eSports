@@ -1,0 +1,140 @@
+[05/06/2021 13:29:29]Alta Jugador
+[05/06/2021 13:29:30]Alta Jugador
+[05/06/2021 13:29:31]Alta Jugador
+[05/06/2021 13:35:32][Admin]Alta Jugador
+[05/06/2021 13:36:04][Admin][Alta Jugador]
+[05/06/2021 13:37:07][Admin][SELECT * FROM jugadores]
+[05/06/2021 13:37:48][Admin][INSERT INTO jugadores VALUES(null, 'Paduro', 'español', 6)]
+[05/06/2021 13:43:20][Admin][SELECT * FROM usuarios WHERE nombreUsuario='Admin' AND claveUsuario = SHA2('Studium2020;',256);]
+[05/06/2021 13:43:54][Admin]acceso al sistema
+[05/06/2021 13:44:06][asdas]acceso al sistema
+[05/06/2021 13:45:23][Admin]acceso al sistema
+[05/06/2021 13:45:46][Admin][Acceso al sistema]
+[05/06/2021 13:48:30][Admin][Acceso al sistema]
+[05/06/2021 13:48:33][Admin][SELECT * FROM jugadores]
+[05/06/2021 13:49:04][Admin][Acceso al sistema]
+[05/06/2021 13:49:05][Admin]Salida del Sistema
+[05/06/2021 13:49:15][Admin][Acceso al sistema]
+[05/06/2021 13:49:19][Admin][SELECT * FROM jugadores]
+[05/06/2021 13:49:19][Admin]Salida del Sistema
+[05/06/2021 14:49:49][Admin][Acceso al sistema]
+[05/06/2021 14:49:53][Admin][SELECT idParticipar, idJugadorFK, idTorneoFK, idJugador, nombreJugador, nacionalidadJugador FROM participar, jugadores WHERE participar.idJugadorFK = jugadores.idJugador AND idTorneoFK = 8]
+[05/06/2021 14:49:56][Admin]Salida del Sistema
+[05/06/2021 14:52:45][Admin][Acceso al sistema]
+[05/06/2021 14:52:48][Admin][SELECT * FROM participar]
+[05/06/2021 14:52:52][Admin][SELECT idParticipar, idJugadorFK, idTorneoFK, idJugador, nombreJugador, nacionalidadJugador FROM participar, jugadores WHERE participar.idJugadorFK = jugadores.idJugador AND idTorneoFK = 8]
+[05/06/2021 14:53:04][Admin][INSERT INTO jugadores VALUES(null, 'pepo', 'rumano', null)]
+[05/06/2021 14:53:06][Admin][SELECT * FROM jugadores]
+[05/06/2021 14:53:13][Admin][INSERT INTO torneos VALUES (null, 'copa kino', '2000')]
+[05/06/2021 14:53:18][Admin][DELETE FROM torneos WHERE idTorneo = 9]
+[05/06/2021 14:53:29][Admin][UPDATE torneos SET nombreTorneo='copa kino', premioTorneo='3000' WHERE idTorneo=14]
+[05/06/2021 14:53:30][Admin][SELECT * FROM torneos]
+[05/06/2021 14:53:32][Admin]Salida del Sistema
+[05/06/2021 14:54:18][Admin][Acceso al sistema]
+[05/06/2021 14:54:27][Admin]Salida del Sistema
+[05/06/2021 14:54:33][Admin][Acceso al sistema]
+[05/06/2021 14:54:34][Admin]Salida del Sistema
+[05/06/2021 14:54:43][Admin][Acceso al sistema]
+[05/06/2021 14:54:43][Admin]Salida del Sistema
+[05/06/2021 17:25:41][Admin][Acceso al sistema]
+[05/06/2021 17:25:43][Admin]Salida del Sistema
+[05/06/2021 17:25:49][Admin][Acceso al sistema]
+[05/06/2021 17:25:55][Admin][]
+[05/06/2021 17:25:55][Admin]Salida del Sistema
+[05/06/2021 17:26:02][Admin][Acceso al sistema]
+[05/06/2021 17:26:06][Admin][INSERT INTO torneos VALUES (null, ' 123', '123')]
+[05/06/2021 17:26:08][Admin]Salida del Sistema
+[05/06/2021 17:42:41][Admin][Acceso al sistema]
+[05/06/2021 17:42:43][Admin][SELECT * FROM torneos]
+[05/06/2021 17:42:45][Admin][SELECT * FROM jugadores]
+[05/06/2021 17:42:46][Admin][SELECT * FROM torneos]
+[05/06/2021 17:44:27][Admin]Salida del Sistema
+[05/06/2021 17:53:35][Admin][Acceso al sistema]
+[05/06/2021 17:53:36][Admin][SELECT * FROM torneos]
+[05/06/2021 17:54:01][Admin]Salida del Sistema
+[05/06/2021 17:55:19][Admin][Acceso al sistema]
+[05/06/2021 17:55:21][Admin][SELECT * FROM torneos]
+[05/06/2021 17:55:24][Admin]Salida del Sistema
+[05/06/2021 17:58:49][Admin][Acceso al sistema]
+[05/06/2021 17:58:51][Admin][SELECT * FROM torneos]
+[05/06/2021 17:59:00][Admin]Salida del Sistema
+[05/06/2021 17:59:20][Admin][Acceso al sistema]
+[05/06/2021 17:59:21][Admin][SELECT * FROM torneos]
+[05/06/2021 18:00:27][Admin]Salida del Sistema
+[05/06/2021 18:00:56][Admin][Acceso al sistema]
+[05/06/2021 18:00:57][Admin][SELECT * FROM torneos]
+[05/06/2021 18:01:03][Admin][SELECT * FROM torneos]
+[05/06/2021 18:13:51][Admin][Acceso al sistema]
+[05/06/2021 18:13:53][Admin]Salida del Sistema
+[05/06/2021 18:14:41][Admin][Acceso al sistema]
+[05/06/2021 18:14:43][Admin][SELECT * FROM jugadores]
+[05/06/2021 18:14:47][Admin]Salida del Sistema
+[05/06/2021 18:15:31][Admin][Acceso al sistema]
+[05/06/2021 18:15:32][Admin][SELECT * FROM jugadores]
+[05/06/2021 18:15:36][Admin][SELECT * FROM participar]
+[05/06/2021 18:15:40][Admin]Salida del Sistema
+[05/06/2021 18:15:53][Admin][Acceso al sistema]
+[05/06/2021 18:15:54][Admin][SELECT * FROM participar]
+[05/06/2021 18:16:01][Admin][ImprimirConsultaParticipantes]
+[05/06/2021 18:16:24][Admin]Salida del Sistema
+[05/06/2021 18:16:44][Admin][Acceso al sistema]
+[05/06/2021 18:16:47][Admin][SELECT * FROM torneos]
+[05/06/2021 18:16:52][Admin]Salida del Sistema
+[05/06/2021 18:17:02][Admin][Acceso al sistema]
+[05/06/2021 18:17:03][Admin][SELECT * FROM torneos]
+[05/06/2021 18:17:08][Admin][ImprimirConsultaTorneo]
+[05/06/2021 18:17:09][Admin]Salida del Sistema
+[05/06/2021 18:18:25][Admin][Acceso al sistema]
+[05/06/2021 18:18:26][Admin][SELECT * FROM participar]
+[05/06/2021 18:18:32][Admin][ImprimirConsultaParticipantes]
+[05/06/2021 18:18:33][Admin]Salida del Sistema
+[05/06/2021 19:45:23][Admin][Acceso al sistema]
+[05/06/2021 19:45:24][Admin][SELECT * FROM torneos]
+[05/06/2021 19:45:28][Admin][SELECT * FROM jugadores]
+[05/06/2021 19:45:32][Admin][SELECT * FROM jugadores]
+[05/06/2021 19:45:38][Admin][SELECT * FROM participar]
+[05/06/2021 19:46:06][Admin]Salida del Sistema
+[05/06/2021 20:04:36][Admin][Acceso al sistema]
+[05/06/2021 20:04:37][Admin][SELECT * FROM participar]
+[05/06/2021 20:04:39][Admin]Salida del Sistema
+[05/06/2021 20:05:29][Admin][Acceso al sistema]
+[05/06/2021 20:05:30][Admin][SELECT * FROM participar]
+[05/06/2021 20:05:50][Admin]Salida del Sistema
+[05/06/2021 20:06:04][Admin][Acceso al sistema]
+[05/06/2021 20:06:06][Admin][SELECT * FROM participar]
+[05/06/2021 20:06:11][Admin]Salida del Sistema
+[05/06/2021 20:20:04][Admin][Acceso al sistema]
+[05/06/2021 20:20:06][Admin][SELECT * FROM participar]
+[05/06/2021 20:20:10][Admin]Salida del Sistema
+[05/06/2021 20:20:15][Admin][Acceso al sistema]
+[05/06/2021 20:20:16][Admin][SELECT * FROM participar]
+[05/06/2021 21:12:05][Admin][SELECT * FROM participar]
+[05/06/2021 21:12:07][Admin]Salida del Sistema
+[05/06/2021 21:15:14][Admin][Acceso al sistema]
+[05/06/2021 21:15:15][Admin][SELECT * FROM participar]
+[05/06/2021 21:15:18][Admin]Salida del Sistema
+[05/06/2021 21:17:34][Admin][Acceso al sistema]
+[05/06/2021 21:17:35][Admin][SELECT * FROM participar]
+[05/06/2021 21:17:41][Admin]Salida del Sistema
+[05/06/2021 21:18:02][Admin][Acceso al sistema]
+[05/06/2021 21:18:03][Admin][SELECT * FROM participar]
+[05/06/2021 21:18:05][Admin][SELECT * FROM participar]
+[05/06/2021 21:18:07][Admin]Salida del Sistema
+[05/06/2021 21:19:05][Admin][Acceso al sistema]
+[05/06/2021 21:19:06][Admin][SELECT * FROM participar]
+[05/06/2021 21:19:07][Admin]Salida del Sistema
+[05/06/2021 21:19:28][Admin][Acceso al sistema]
+[05/06/2021 21:19:29][Admin][SELECT * FROM participar]
+[05/06/2021 21:19:39][Admin]Salida del Sistema
+[05/06/2021 21:36:27][Admin][Acceso al sistema]
+[05/06/2021 21:36:28][Admin][SELECT * FROM participar]
+[05/06/2021 21:36:43][Admin]Salida del Sistema
+[05/06/2021 21:45:49][Admin][Acceso al sistema]
+[05/06/2021 21:45:58][Admin][SELECT * FROM torneos]
+[05/06/2021 21:47:12][Admin]Salida del Sistema
+[05/06/2021 21:47:53][Admin][Acceso al sistema]
+[05/06/2021 21:48:02][Admin]Salida del Sistema
+[05/06/2021 21:56:26][Admin][Acceso al sistema]
+[05/06/2021 21:56:36][Admin]Salida del Sistema
+[05/06/2021 22:13:58][Admin][Acceso al sistema]
+[05/06/2021 22:14:04][Admin]Salida del Sistema
